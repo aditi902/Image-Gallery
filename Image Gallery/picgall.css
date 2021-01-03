@@ -1,0 +1,36 @@
+body{
+	padding-top: 70px;
+	background: #BE93C5;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #7BC6CC, #BE93C5);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #7BC6CC, #BE93C5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.navbar{
+	background:rgb(50,80,90);
+}
+.jumbotron{
+	color: rgb(50,80,90);
+	background: rgb(236,240,240);
+}
+.active{
+	background:rgb(50,80,90);
+
+}
+.navbar-inverse .navbar-brand{
+	color: white;
+}
+
+.navbar-inverse .navbar-nav>li>a
+{
+	color:white;
+}
+.thumbnail{        
+     width : 100%;
+    height: 200px;
+    overflow: hidden;
+
+}
+ .thumbnail:hover img { 
+        transform: scale(2.4);      
+} 
+   
+ 
